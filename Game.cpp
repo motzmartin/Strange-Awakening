@@ -84,8 +84,8 @@ void Game::Destroy()
 	SDL_DestroyWindow(window);
 	SDL_DestroyRenderer(renderer);
 
-	Mix_Quit();
-	TTF_Quit();
 	IMG_Quit();
+	TTF_Quit();
+	Mix_Quit();
 	SDL_Quit();
 }
