@@ -36,14 +36,14 @@ bool Game::Initialize()
 		600,
 		SDL_WINDOW_SHOWN);
 
-	if (window == NULL)
+	if (window == nullptr)
 	{
 		return false;
 	}
 
 	renderer = SDL_CreateRenderer(window, -1, SDL_RENDERER_ACCELERATED);
 
-	if (renderer == NULL)
+	if (renderer == nullptr)
 	{
 		return false;
 	}
