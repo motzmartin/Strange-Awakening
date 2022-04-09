@@ -53,11 +53,11 @@ bool Game::Initialize()
 
 bool Game::PollEvents()
 {
-	SDL_Event SDLEvent;
+	SDL_Event sdlEvent;
 
-	while (SDL_PollEvent(&SDLEvent))
+	while (SDL_PollEvent(&sdlEvent))
 	{
-		switch (SDLEvent.type)
+		switch (sdlEvent.type)
 		{
 		case SDL_QUIT:
 			return false;
