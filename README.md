@@ -1,4 +1,4 @@
-# Biomes
+# Strange Awakening
 
 Textures made by Emmanuel and Tristan.
 
