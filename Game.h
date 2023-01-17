@@ -1,9 +1,9 @@
 #pragma once
 
-#include <SDL.h>
 #include <SDL_image.h>
-#include <SDL_ttf.h>
-#include <SDL_mixer.h>
+
+#include "Player.h"
+#include "Map.h"
 
 class Game
 {
@@ -15,6 +15,14 @@ public:
 	void Destroy();
 
 private:
+	Player player;
+	Map map;
+
+	bool showCollisionBoxes = false;
+
+	SDL_Texture* spritesTexture = nullptr;
+	SDL_Texture* playerTexture = nullptr;
+
 	SDL_Window* window = nullptr;
 	SDL_Renderer* renderer = nullptr;
 };
