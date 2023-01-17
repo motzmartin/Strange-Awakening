@@ -1,3 +1,3 @@
 ## Screenshots
 
-![image](https://user-images.githubusercontent.com/94078957/212988881-549e84d4-9ebf-4ce3-9ae2-2b9d48a2d669.png)
+![image](https://user-images.githubusercontent.com/94078957/212988958-9e7a0115-dddf-4e9a-8659-b8d8a23b6871.png)
